@@ -1,7 +1,11 @@
-x = input().split()
-y =[]
-i = 0
+x = input().split('"')
+y = []
+i = 1
 while i < len(x):
     y.append(x[i])
-    i += 1
-print("Number of paramerters:", str(len(y)) + ".")
+    i += 2
+
+if len(y) > 0:
+    print(y[0])
+else:
+    print("none")
