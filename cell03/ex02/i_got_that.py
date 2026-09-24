@@ -1,4 +1,3 @@
-x = input("What you gotta say?: ")
 x = input("What you gotta say? : ")
 
 while True:
