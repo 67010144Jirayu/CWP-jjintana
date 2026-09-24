@@ -5,8 +5,7 @@ def array_of_names(persons):
         full_name = first_name.capitalize() + " " + last_name.capitalize()
         y.append(full_name)
     return y
-
-print(array_of_names(persons))
+#Capaitalize ทำให้ตัวอักษรตัวแรกเป็นตัวใหญ่ และตัวอักษรที่เหลือเป็นตัวเล็ก
 persons = {"jean": "valjean",
            "grace": "hopper",
            "xavier": "niel",
